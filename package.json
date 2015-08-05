@@ -1,0 +1,27 @@
+{
+  "name": "superagent-cors",
+  "version": "0.1.0",
+  "description": "Proxy CORS requests through an iframe.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cors",
+    "superagent"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "^1.2.0",
+    "superagent-cors-proxy": "0.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^4.0.0",
+    "matchdep": "^0.3.0"
+  }
+}
